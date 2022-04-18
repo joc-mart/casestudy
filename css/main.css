@@ -29,20 +29,21 @@ h2,
 h3 {
     font-family: var(--font-sans-serif);
     color: var(--black);
-    margin: 0;
+    margin: .6rem 0;
 }
 h4 {
     font-family: var(--font-serif);
     font-weight: 100;
     font-size: 1.6rem;
     letter-spacing: .1rem;
-    margin: 0;
+    margin: 1rem 0;
 }
 h2 {
     font-size: 2.4rem;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
 a {
     color: var(--black);
@@ -69,7 +70,10 @@ img {
     line-height: 1.3;
     background-color: var(--pink);
     margin: 1rem 0 4rem;
+    max-width: 50rem;
 }
 .component_code--headings {
     background-color: var(--warm-white);
+    margin: 1rem 0 4rem;
+    max-width: 24rem;
 }
