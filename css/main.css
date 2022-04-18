@@ -152,3 +152,27 @@ a:hover {
     color: var(--black);
     padding: .5rem 1rem;
 }
+/* hero section */
+.component_code--hero {
+    background-color: var(--pink);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.component_code--hero p {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 24rem;
+}
+.hero_container {
+    display: flex;
+    flex-direction: column;
+}
+.button--hero {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    background-color: var(--pink);
+    color: var(--black);
+    border: 1px solid var(--black);
+    padding: 1rem;
+}
