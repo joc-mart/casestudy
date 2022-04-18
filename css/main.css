@@ -81,10 +81,25 @@ img {
     font-family: var(--font-sans-serif);
     font-weight: bold;
     font-size: 18px;
+    margin: 0 0 4rem;
 }
-.component_code--links a {
+a {
     text-decoration: none;
 }
-.component_code--links a:hover {
+a:hover {
     border-bottom: 2px solid var(--black);
+}
+.component_code--banner {
+    font-family: var(--font-sans-serif);
+    background-color: var(--warm-white);
+    font-size: 16px;
+    letter-spacing: 0rem; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.component_code--banner a {
+    padding: .8rem 0 0;
+    margin: 0 .8rem;
 }
