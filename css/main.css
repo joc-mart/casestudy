@@ -211,3 +211,6 @@ h3.events--heading {
 .events_list h4 {
     margin: 0;
 }
+.component_code--events a:hover {
+    border-bottom: 1px solid var(--black);
+}
