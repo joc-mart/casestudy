@@ -119,3 +119,23 @@ a:hover {
 .component_code--nav a:hover {
     border-bottom: none;
 }
+/* alert */
+.component_code--alert {
+    font-family: var(--font-sans-serif);
+    background-color: var(--black);
+    color: var(--warm-white);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    background-color: var(--black);
+    color: var(--warm-white);
+    border: none;
+    font-size: 1.5rem;
+}
+.button:hover {
+    background-color: var(--warm-white);
+    color: var(--black);
+    padding: .5rem 1rem;
+}
