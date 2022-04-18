@@ -101,10 +101,15 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 2rem;
+    margin-bottom: 4rem;
 }
 .component_code--banner a {
     padding: .8rem 0 0;
     margin: 0 .8rem;
+}
+.banner_list {
+    list-style-type: none;
+    display: flex;
 }
 /* nav */
 .component_code--nav {
@@ -112,12 +117,19 @@ a:hover {
     font-weight: bold;
     font-size: 21px;
     background-color: var(--warm-white);
-    padding: 2rem;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.nav_list {
+    list-style-type: none;
+    display: flex;
 }
 .component_code--nav a:hover {
     border-bottom: none;
+}
+.nav_list li {
+    margin: 1rem;
 }
 /* alert */
 .component_code--alert {
@@ -127,6 +139,7 @@ a:hover {
     padding: 3rem;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 .button {
     background-color: var(--black);
