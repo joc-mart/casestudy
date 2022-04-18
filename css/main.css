@@ -184,12 +184,30 @@ a:hover {
 /* events section */
 .component_code--events {
     background-color: var(--warm-white);
+    padding: 2rem;
 }
 .component_code--events img {
     display: block;
+}
+.component_code--events h2 {
+    padding: 0 0 4rem;
 }
 .events_list {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 3rem;
+    padding: 0;
+}
+.events_list p {
+    margin: 1.5rem 0 1rem;
+}
+.events_list h3 {
+    margin: 0;
+}
+h3.events--heading {
+    margin: 2rem 0 0 !important;
+}
+.events_list h4 {
+    margin: 0;
 }
