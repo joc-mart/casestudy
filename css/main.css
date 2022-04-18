@@ -77,3 +77,14 @@ img {
     margin: 1rem 0 4rem;
     max-width: 24rem;
 }
+.component_code--links {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    font-size: 18px;
+}
+.component_code--links a {
+    text-decoration: none;
+}
+.component_code--links a:hover {
+    border-bottom: 2px solid var(--black);
+}
