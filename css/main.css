@@ -182,3 +182,14 @@ a:hover {
     color: var(--warm-white);
 }
 /* events section */
+.component_code--events {
+    background-color: var(--warm-white);
+}
+.component_code--events img {
+    display: block;
+}
+.events_list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
