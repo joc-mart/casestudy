@@ -61,7 +61,7 @@ img {
     border: 0px solid white;
     overflow-x: auto;
 }
-
+/* body */
 .component_code {
     font-family: var(--font-serif);
     font-weight: 100;
@@ -72,11 +72,13 @@ img {
     margin: 1rem 0 4rem;
     max-width: 50rem;
 }
+/* headings */
 .component_code--headings {
     background-color: var(--warm-white);
     margin: 1rem 0 4rem;
     max-width: 24rem;
 }
+/* links */
 .component_code--links {
     font-family: var(--font-sans-serif);
     font-weight: bold;
@@ -89,6 +91,7 @@ a {
 a:hover {
     border-bottom: 2px solid var(--black);
 }
+/* banner */
 .component_code--banner {
     font-family: var(--font-sans-serif);
     background-color: var(--warm-white);
@@ -102,4 +105,17 @@ a:hover {
 .component_code--banner a {
     padding: .8rem 0 0;
     margin: 0 .8rem;
+}
+/* nav */
+.component_code--nav {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    font-size: 21px;
+    background-color: var(--warm-white);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.component_code--nav a:hover {
+    border-bottom: none;
 }
