@@ -228,7 +228,7 @@ h3.events--heading {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 3rem;
-    padding: 4rem 0 0;
+    padding: 4rem 0;
 }
 .classes_container {
     display: flex;
@@ -245,5 +245,8 @@ h3.events--heading {
 }
 .classes_subheading h3 {
     margin-bottom: 0;
+}
+.classes_subheading h3 a:hover {
+    border-bottom: none;
 }
 
