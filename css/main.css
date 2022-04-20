@@ -93,6 +93,17 @@ a {
 a:hover {
     border-bottom: 2px solid var(--black);
 }
+.diamond {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--black);
+    background-color: transparent;
+    transform: rotate(45deg);
+}
+.diamond:hover {
+    background-color: var(--black);
+}
 /* banner */
 .component_code--banner {
     font-family: var(--font-sans-serif);
