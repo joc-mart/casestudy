@@ -91,7 +91,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    border-bottom: 2px solid var(--black);
+    border-bottom: 1px solid var(--black);
 }
 .diamond {
     display: inline-block;
@@ -273,8 +273,18 @@ h3.events--heading {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+}
+.footer_list li{
+    padding: 1rem;
 }
 .footer_container {
     display: flex;
     justify-content: center;
+}
+.container_item {
+    padding: 3rem;
+}
+.button--footer {
+    background-color: var(--brown);
 }
