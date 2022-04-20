@@ -101,6 +101,9 @@ a:hover {
     background-color: transparent;
     transform: rotate(45deg);
 }
+.links_diamond {
+    font-weight: initial;
+}
 .diamond:hover {
     background-color: var(--black);
 }
