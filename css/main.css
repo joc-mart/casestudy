@@ -263,3 +263,18 @@ h3.events--heading {
     border-bottom: none;
 }
 
+/* footer */
+.component_code--footer {
+    background-color: var(--brown);
+    text-align: center;
+}
+.footer_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+}
