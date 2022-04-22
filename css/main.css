@@ -311,13 +311,27 @@ h3.events--heading {
 .component_code--footer {
     background-color: var(--brown);
     text-align: center;
+    padding: 1rem;
+}
+.component_code--footer h2 {
+    font-size: 32px;
+}
+.component_code--footer p {
+    font-size: 24px;
+    padding: 1rem;
 }
 .footer_list {
     list-style-type: none;
     display: flex;
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
     padding: 0;
+}
+.footer_list img {
+    display: inline;
 }
 .footer_list li{
     padding: 1rem;
