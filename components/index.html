@@ -13,51 +13,62 @@
     <body>
         <div class="sidebar">
             <header>National Museum of Mexican Art</header>
-            <ul>
-                <li><a href="#body">typography</a></li>
-                <li><a href="#links">atoms</a></li>
-                <li><a href="#header">page header</a></li>
-                <li><a href="#hero-section">hero section</a></li>
-                <li><a href="#article-section">article section</a></li>
-                <li><a href="#mission-section">mission section</a></li>
-                <li><a href="#highlights">highlights section</a></li>
-                <li><a href="#footer">page footer</a></li>
-            </ul>
+                <h3><a href="#body">typography</a></h3>
+                    <ul>
+                        <li><a href="#body">body</a></li>
+                        <li><a href="#headings">headings</a></li>
+                        <li><a href="#links">links</a></li>
+                        <li><a href="#buttons">buttons</a></li>
+                    </ul>
+                <h3><a href="#header">page header</a></h3>
+                    <ul>
+                        <li><a href="#banner">banner</a></li>
+                        <li><a href="#main-nav">main-nav</a></li>
+                        <li><a href="#alert">alert</a></li>
+                    </ul>
+                <h3><a href="#hero-section">hero section</a></h3>
+                <h3><a href="#article-section">article section</a></h3>
+                    <ul>
+                        <li><a href="#events">events</a></li>
+                        <li><a href="#classes">classes</a></li>
+                    </ul>
+                <h3><a href="#mission-section">mission section</a></h3>
+                <h3><a href="#highlights">highlights section</a></h3>
+                <h3><a href="#footer">page footer</a></h3>
         </div>
         <div class= "page-content">
-            <h1>Web Design System</h1>
-            <p>Collection of components based on my study of the design system of the <a href="https://nationalmuseumofmexicanart.org">National Museum of Mexican Art website.</a></p>
+            <section class="intro">
+                <h1>web design system</h1>
+                <p>Collection of components based on my study of the design system of the <a href="https://nationalmuseumofmexicanart.org">National Museum of Mexican Art website.</a></p>
+            </section>
 
             <article class="component">
-                <h3 id="body" class="component_name">body</h3>
+                <h3 id="body">typography</h3>
+                <h4 class="component_name">body copy</h4>
                 <div class="component_img">
                     <img srcset="img/section5--body.png 2x" src="img/section5--body.png" alt="body copy" />
-                    <p>body copy screenshot</p>
                 </div>
                 <div class="component_code">
                     Our programs and exhibitions capture the wide range of Mexican cultural expressions and art forms, from ancient to modern and on both sides of the border. We represent the Mexican community from its own point of view and in its own voice.
                 </div>
-                <p>body copy code</p>
             </article>
             
             <article class="component">
-                <h3 class="component_name">h2, h3, h4</h3>
+                <h4 id="headings" class="component_name">h2, h3, h4</h4>
                 <div class="component_img">
                     <img srcset="img/h2.png 2x" src="img/h2.png" alt="h2" />
                     <img srcset="img/h3.png 2x" src="img/h3.png" alt="h3" />
                     <img srcset="img/h4.png 2x" src="img/h4.png" alt="h4" />
                 </div>
-                <p>headings screenshot</p>
                 <div class="component_code--headings">
                     <h2>Also On View Now</h2>
                     <h3>Surrounding: Kahlo: Works from the Permanent Collection</h3>
                     <h4>Mar 5, 2022 &ndash; Jan 15, 2023</h4>
                 </div>
-                <p>headings code</p>
             </article>
 
             <article class="component">
-                <h3 id="links" class="component_name">links</h3>
+                <h4 id="links" class="component_name">links</h4>
                 <div class="component_code--links">
                     <p><a href="#!">See All Resources</a> <i class="fa-solid fa-lg fa-angle-right"></i></p>
                     <p class="links_diamond"><a href="#!"><span class="diamond"></span> Classes &amp; Workshops</a></p>
@@ -66,18 +77,18 @@
             </article>
 
             <article class="component">
-                <h3 class="component_name">buttons</h3>
+                <h4 id="buttons" class="component_name">buttons</h4>
                 <div class="component_code--button">
                     <button class="button" type="button">Exhibition Details <i class="fa-solid fa-lg fa-angle-right"></i></button>
                 </div>
             </article>
-
+            
             <article class="component">
-                <h3 id="header" class="component_name">banner</h3>
+                <h3 id="header">page header</h3>
+                <h4 id="banner" class="component_name">banner</h4>
                 <div class="component_img">
                     <img srcset="img/banner.png 2x" src="img/banner.png" alt="banner" />
                 </div>
-                <p>banner screenshot</p>
                 <div class="component_code--banner">
                     <div>
                         <ul class="banner_list">
@@ -97,15 +108,13 @@
                         </ul>
                     </div>
                 </div>
-                <p>banner code</p>
             </article>
 
             <article class="component">
-                <h3 class="component_name">main-nav</h3>
+                <h4 id="main-nav" class="component_name">main-nav</h4>
                 <div class="component_img">
                     <img srcset="img/main-nav.png 2x" src="img/main-nav.png" alt="main nav" />
                 </div>
-                <p>main navigation screenshot</p>
                 <div class="component_code--nav">
                     <ul class="nav_list">
                         <li><a href="#!">Our Story</a></li>
@@ -116,15 +125,13 @@
                         <li><a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     </ul>
                 </div>
-                <p>main navigation code</p>
             </article>
 
             <article class="component">
-                <h3 class="component_name">alert</h3>
+                <h4 id="alert" class="component_name">alert</h4>
                 <div class="component_img">
                     <img srcset="img/alert.png 2x" src="img/alert.png" alt="alert" />
                 </div>
-                <p>alert screenshot</p>
                 <div class="component_code--alert">
                     <div>
                         Open late every Wednesday! Explore our galleries until 8pm every Wednesday through August 7th.
@@ -133,15 +140,13 @@
                         <button class="button--alert" type="button">X</button>
                     </div>
                 </div>
-                <p>alert code</p>
             </article>
 
             <article class="component">
-                <h3 id="hero-section" class="component_name">hero-section</h3> 
+                <h3 id="hero-section">hero-section</h3> 
                 <div class="component_img">
                     <img srcset="img/section1.png 2x" src="img/section1.png" alt="hero section" />
                 </div>
-                <p>hero section screenshot</p>
                 <div class="component_code--hero">
                     <div class="hero_container">
                         <div>
@@ -158,15 +163,14 @@
                         <img srcset="img/kahlo.webp 2x" src="img/kahlo.webp" alt="picture of Frida Kahlo" />
                     </div>
                 </div>
-                <p>hero section code</p>
             </article>
 
             <article class="component">
-                <h3 id="article-section" class="component_name">article-section--events</h3>
+                <h3 id="article-section">article-section</h3>
+                <h4 id="events" class="component_name">article-section--events</h4>
                 <div class="component_img">
                     <img srcset="img/cover-section--events.png 2x" src="img/cover-section--events.png" alt="events section" />
                 </div>
-                <p>events section screenshot</p>
                 <div class="component_code--events">
                     <h2>Happening Soon</h2>
                     <ul class="events_list">
@@ -189,15 +193,13 @@
                         </li>
                     </ul>
                 </div>
-                <p>events section code</p>
             </article>
 
             <article class="component">
-                <h3 class="component_name">article-section--classes</h3>
+                <h4 id="classes" class="component_name">article-section--classes</h4>
                 <div class="component_img">
                     <img srcset="img/section4.png 2x" src="img/section4.png" alt="events section" />
                 </div>
-                <p>classes section screenshot</p>
                 <div class="component_code--classes">
                     <h2>Learn with Art</h2>
                     <ul class="classes_list">
@@ -233,14 +235,12 @@
                         <a href="#!">See All Resources</a> <i class="fa-solid fa-lg fa-angle-right"></i>
                     </div>
                 </div>
-                <p>classes section code</p>
             </article>
 
             <article class="component">
-                <h3 id="mission-section" class="component_name">mission-section</h3>
+                <h3 id="mission-section">mission-section</h3>
                 <div class="component_img">
                     <img srcset="img/section5--body.png 2x" src="img/section5--body.png" alt="body copy" />
-                    <p>screenshot</p>
                 </div>
                 <div class="component_code">
                     Our programs and exhibitions capture the wide range of Mexican cultural expressions and art forms, from ancient to modern and on both sides of the border. We represent the Mexican community from its own point of view and in its own voice.
@@ -248,11 +248,10 @@
             </article>
 
             <article class="component">
-                <h3 id="highlights" class="component_name">section--highlights</h3>
+                <h3 id="highlights">section--highlights</h3>
                 <div class="component_img">
                     <img srcset="img/section6.png 2x" src="img/section6.png" alt="highlights section" />
                 </div>
-                <p>highlights section screenshot</p>
                 <div class="component_code--events">
                     <h2>Art Highlights</h2>
                     <ul class="events_list">
@@ -267,15 +266,13 @@
                         <a href="#!">See All Resources</a> <i class="fa-solid fa-lg fa-angle-right"></i>
                     </div>
                 </div>
-                <p>highlights section code</p>
             </article>
 
             <article class="component">
-                <h3 id="footer" class="component_name">footer</h3>
+                <h3 id="footer">footer</h3>
                 <div class="component_img">
                     <img srcset="img/footer.png 2x" src="img/footer.png" alt="screenshot of footer section">
                 </div>
-                <p>footer section screenshot</p>
                 <div class="component_code--footer">
                     <h2>National Museum of Mexican Art</h2>
                     <p>1852 W 19th Street
@@ -329,7 +326,6 @@
                         <li><a href="#!">Site by AREA 17</a></li>
                     </ul>
                 </div>
-                <p>Footer section code</p>
             </article>
         </div>
     </body>
