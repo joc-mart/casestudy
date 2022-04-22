@@ -18,6 +18,11 @@ html {
     box-sizing: inherit;
 }
 /** typography **/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 body {
     font-family: var(--font-serif);
     font-weight: 100;
@@ -53,6 +58,34 @@ img {
     display: block;
 }
 
+/* sidebar */
+.sidebar {
+    position: fixed;
+    font-family: var(--font-sans-serif);
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: var(--brown);
+    padding: 0 2rem;
+    
+}
+.sidebar header {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--black);
+    text-align: center;
+    padding: 2rem 0;
+}
+.sidebar ul a {
+    height: 100%;
+    width: 100%;
+    line-height: 2rem;
+
+}
+.page-content {
+    margin-left: 250px;
+}
 /** component **/
 .component {
     padding-bottom: 4rem;
