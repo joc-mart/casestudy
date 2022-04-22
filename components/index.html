@@ -72,8 +72,10 @@
                 <div class="component_code--links">
                     <p><a href="#!">See All Resources</a> <i class="fa-solid fa-lg fa-angle-right"></i></p>
                     <p class="links_diamond"><a href="#!"><span class="diamond"></span> Classes &amp; Workshops</a></p>
+                    <input type="email" class="email" name="email" placeholder="Email Address"><input type="submit" class="submit" value="Submit">
                 </div>
                 <p>*how do I make only the diamond fill in on hover??*</p>
+                <p>*How do I make email and submit into one element??*</p>
             </article>
 
             <article class="component">
@@ -279,9 +281,9 @@
                 </div>
                 <div class="component_code--footer">
                     <h2>National Museum of Mexican Art</h2>
-                    <p>1852 W 19th Street<br>
+                    <p class="footer_body">1852 W 19th Street<br>
                         Chicago, IL 60608</p>
-                    <p>Open Tuesday &ndash; Sunday<br>
+                    <p class="footer_body">Open Tuesday &ndash; Sunday<br>
                         10 am &ndash; 5 pm</p>
                     <!--nav-->
                     <div>
@@ -294,10 +296,10 @@
                     <!--socials-->
                     <div>
                         <ul class="footer_list">
-                            <li><a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#!"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#!"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#!"><i class="fa-brands fa-xl fa-instagram"></i></a></li>
+                            <li><a href="#!"><i class="fa-brands fa-xl fa-facebook"></i></a></li>
+                            <li><a href="#!"><i class="fa-brands fa-xl fa-twitter"></i></a></li>
+                            <li><a href="#!"><i class="fa-brands fa-xl fa-youtube"></i></a></li>
                         </ul>
                     </div>
                     <!--container-->
@@ -305,31 +307,35 @@
                         <!--get involved left-->
                         <div class="container_item">
                             <h3>Get Involved</h3>
-                            <p>Your gift helps keep Mexican Art accessible to all.</p>
+                            <p class="footer_body">Your gift helps keep Mexican Art accessible to all.</p>
                             <button class="button button--footer" type="button">Donate <i class="fa-solid fa-lg fa-angle-right"></i></button>
                             <button class="button button--footer" type="button">Join <i class="fa-solid fa-lg fa-angle-right"></i></button>
                         </div>
                         <!--newsletter right-->
-                        <div class="container_item">
-                            <h3>Subscribe to Our Newsletter</h3>
-                            <p>Art and events in your inbox.</p>
-                            <form action="#!">
-                                <input type="email" class="email" name="email" placeholder="Email Address"><input type="submit" class="submit" value="Submit">
-                            </form>
+                        <div class="container_item container_item--subscribe">
+                            <div>
+                                <h3>Subscribe to Our Newsletter</h3>
+                                <p class="footer_body">Art and events in your inbox.</p>
+                            </div>
+                            <div class="container_email">
+                                <form action="#!">
+                                    <input type="email" class="email" name="email" placeholder="Email Address"><input type="submit" class="submit" value="Submit">
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <!--funders-->
                     <ul class="footer_list"> 
-                        <li ><strong>Thanks to Our Funders</strong></li>
-                        <li>Chicago Park District</li>
-                        <li>Illinois Arts Council</li>
+                        <li class="footer_list--funders"><strong>Thanks to Our Funders</strong></li>
+                        <li class="footer_list--funders">Chicago Park District</li>
+                        <li class="footer_list--funders">Illinois Arts Council</li>
                     </ul>
                     <!--copyright-->
-                    <p>&copy;2022 National Museum of Mexican Art &ndash; All rights reserved</p>
+                    <p class="footer_copyright">&copy;2022 National Museum of Mexican Art &ndash; All rights reserved</p>
                     <ul class="footer_list">
-                        <li><a href="#!">Terms of Use</a></li>
-                        <li><a href="#!">Privacy Policy</a></li>
-                        <li><a href="#!">Site by AREA 17</a></li>
+                        <li class="footer_list--copyright"><a href="#!">Terms of Use</a></li>
+                        <li class="footer_list--copyright"><a href="#!">Privacy Policy</a></li>
+                        <li class="footer_list--copyright"><a href="#!">Site by AREA 17</a></li>
                     </ul>
                 </div>
             </article>
