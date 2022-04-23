@@ -195,7 +195,7 @@ a:hover {
     font-family: var(--font-sans-serif);
     background-color: var(--black);
     color: var(--warm-white);
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
 }
