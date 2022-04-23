@@ -307,16 +307,13 @@ h3.events--heading {
 .classes_subheading h3 a:hover {
     border-bottom: none;
 }
-.play {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    border: 3px solid var(--warm-white);
-    transform: rotate(45deg);
-    border-left: 0;
-    border-bottom: 0;
+.link--play {
+    color: var(--warm-white);
+    background-color: rgba(0,0,0,.5);
+    padding: 1.5rem;
+    position: absolute;
+    left: 475px;
 }
-
 /* highlights */
 .links--highlights {
     padding-top: 4rem;
