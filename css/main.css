@@ -330,7 +330,6 @@ h3.events--heading {
     font-size: 2.4rem;
     line-height: 1.2;
     background-color: var(--pink);
-    padding: 3rem;
 }
 .component_code--button {
     padding: 1rem 0;
@@ -437,4 +436,13 @@ h3.events--heading {
     left: 0;
     z-index: 10;
     width: 100%;
+}
+.component_code--mission p {
+    padding: 4rem 20% 0rem;
+}
+.component_code--button {
+    padding: 3rem 20%;
+}
+.button--mission {
+    margin: 0 .5rem 4rem 0;
 }
