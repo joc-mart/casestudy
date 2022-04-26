@@ -430,3 +430,12 @@ h3.events--heading {
 .component_code--footer h3 {
     margin: 0;
 }
+
+/** home-page template **/
+.home-page_nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
