@@ -4,9 +4,222 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hpt7skw.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://kit.fontawesome.com/6e52f25b84.js" crossorigin="anonymous"></script>
         <title>National Museum of Mexican Art</title>
     </head>
     <body>
-        <h1>Home Page Goes Here</h1>
+        <header>
+            <div class="component_code--banner">
+                <div>
+                    <ul class="banner_list">
+                        <li><a href="#!">Always Free</a></li> 
+                        <li>&#9670;</li>
+                        <li><a href="#!">Plan Your Visit</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img srcset="img/logo.png 2x" src="img/logo.png" alt="banner" />
+                </div>
+                <div>
+                    <ul class="banner_list">
+                        <li><a href="#!">Donate</a></li>
+                        <li><a href="#!">Become a Member</a></li>
+                        <li><a href="#!">Shop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!--main navigation bar-->
+        <div class="component_code--nav">
+            <ul class="nav_list">
+                <li><a href="#!">Our Story</a></li>
+                <li><a href="#!">What's Happening</a></li>
+                <li><a href="#!">Art + Artists</a></li>
+                <li><a href="#!">Learn</a></li>
+                <li><a href="#!">Get Involved</a></li>
+                <li><a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- alert -->
+        <div class="component_code--alert">
+            <div>
+                Open late every Wednesday! Explore our galleries until 8pm every Wednesday through August 7th.
+            </div>
+            <div>
+                <button class="button--alert" type="button">X</button>
+            </div>
+        </div>
+
+        <!--hero section-->
+        <div class="component_code--hero">
+            <div class="hero_container">
+                <div>
+                    <h1>Frida Kahlo, Her Photos</h1>
+                </div>
+                <div>
+                    <p>Now on view</p>
+                </div>
+                <div>
+                    <button class="button button--hero" type="button">Exhibition Details <i class="fa-solid fa-lg fa-angle-right"></i></button>
+                </div>
+            </div>
+            <div>
+                <img srcset="img/kahlo.webp 2x" src="img/kahlo.webp" alt="picture of Frida Kahlo" />
+            </div>
+        </div>
+
+        <!--events section-->
+        <div class="component_code--events">
+            <h2>Happening Soon</h2>
+            <ul class="events_list">
+                <li>
+                    <img srcset="img/wednesday.webp 2x" src="img/wednesday.webp" alt="image of front of the museum">
+                    <h3 class="events--heading"><a href="#!">Late Wednesdays</a></h3>
+                    <h4>Apr 6 &ndash; Aug 3, 2022</h4>
+                </li>
+                <li>
+                    <img srcset="img/nicho.webp 2x" src="img/nicho.webp" alt="nicho box">
+                    <p>&#9671; Classes &amp; Workshops</p>
+                    <h3><a href="#!">Studio Saturdays: Nicho Box</a></h3>
+                    <h4>Apr 16, 10:00 am</h4>
+                </li>
+                <li> 
+                    <img srcset="img/gala.webp 2x" src="img/gala.webp" alt="Gala de Arte">
+                    <p>&#9671; Special Events</p>
+                    <h3><a href="#!">Gala de Arte</a></h3>
+                    <h4>May 13, 6:00 &ndash; 11:00 pm</h4>
+                </li>
+            </ul>
+        </div>
+
+        <!--classes section-->
+        <div class="component_code--classes">
+            <h2>Learn with Art</h2>
+            <ul class="classes_list">
+                <li class="classes_container">
+                    <div class="classes_subheading">
+                        <h3><a href="#!">NMMAen Casa: Tin Sacred Hearts</a></h3>
+                        <h4>Grades 6&ndash;8, Grades 9&ndash;12</h4>
+                    </div>
+                    <div>
+                        <a href="#!"><img srcset="img/hearts.png 2x" src="img/hearts.png" alt="image of markers and 2 hearts on a pink cloth"></a>
+                    </div>
+                </li>
+                <li class="classes_container">
+                    <div class="classes_subheading">
+                        <h3><a href="#!">NMMA en Casa: Weaving</a></h3>
+                        <h4>Grades 6&ndash;8, Grades 9&ndash;12</h4>
+                    </div>
+                    <div>
+                        <a href="#!"><img srcset="img/weaving.png 2x" src="img/weaving.png" alt="hands using yarn to weave"></a>
+                    </div>
+                </li>
+                <li class="classes_container"> 
+                    <div class="classes_subheading">
+                        <h3><a href="#!">NMMA en Casa: Paper Mache Sugar Skulls</a></h3>
+                        <h4>Grades K&ndash;5, Grades 6&ndash;8, Grades 9&ndash;12</h4>
+                    </div>
+                    <div>
+                        <a href="#!"><img srcset="img/skull.png 2x" src="img/skull.png" alt="two hands decorating a skull with marker"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="component_code--links">
+                <a href="#!">See All Resources</a> <i class="fa-solid fa-lg fa-angle-right"></i>
+            </div>
+        </div>
+
+        <!--mission section-->
+        <div class="component_code--mission">
+            <p>Our programs and exhibitions capture the wide range of Mexican cultural expressions and art forms, from ancient to modern and on both sides of the border. We represent the Mexican community from its own point of view and in its own voice.</p>
+            <div class="component_code--button">
+                <button class="button button--mission" type="button">Our Mission <i class="fa-solid fa-lg fa-angle-right"></i></button>
+                <button class="button button--mission" type="button">Get Involved <i class="fa-solid fa-lg fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <!--events section-->
+        <div class="component_code--events">
+            <h2>Art Highlights</h2>
+            <ul class="events_list">
+                <li>
+                    <img srcset="img/alfonso-castillo.webp 2x" src="img/alfonso-castillo.webp" alt="image of a mask titled Máscara con figuras pre-Cuauhtémoc">
+                    <p><a href="#!">&#9671; Arte Popular</a></p>
+                    <h3 class="events--heading"><a href="#!">Alfonso Castillo Orta</a></h3>
+                    <h4>Máscara con figuras pre-Cuauhtémoc, 1992</h4>
+                </li>
+            </ul>
+            <div class="component_code--links links--highlights">
+                <a href="#!">All Art Highlights</a> <i class="fa-solid fa-lg fa-angle-right"></i>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="component_code--footer">
+            <h2>National Museum of Mexican Art</h2>
+            <p class="footer_body">1852 W 19th Street<br>
+                Chicago, IL 60608</p>
+            <p class="footer_body">Open Tuesday &ndash; Sunday<br>
+                10 am &ndash; 5 pm</p>
+            <!--nav-->
+            <div>
+                <ul class="footer_list">
+                    <li><a href="#!">Plan Your Visit</a></li>
+                    <li><a href="#!">Contact us</a></li>
+                    <li><a href="#!">Yollocalli <img srcset="img/arrow.png 2x" src="img/arrow.png" alt="arrow icon"></a></li>
+                </ul>
+            </div>
+            <!--socials-->
+            <div>
+                <ul class="footer_list">
+                    <li><a href="#!"><i class="fa-brands fa-xl fa-instagram"></i></a></li>
+                    <li><a href="#!"><i class="fa-brands fa-xl fa-facebook"></i></a></li>
+                    <li><a href="#!"><i class="fa-brands fa-xl fa-twitter"></i></a></li>
+                    <li><a href="#!"><i class="fa-brands fa-xl fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <!--container-->
+            <div class="footer_container">
+                <!--get involved left-->
+                <div class="container_item">
+                    <h3>Get Involved</h3>
+                    <p class="footer_body">Your gift helps keep Mexican Art accessible to all.</p>
+                    <button class="button button--footer" type="button">Donate <i class="fa-solid fa-lg fa-angle-right"></i></button>
+                    <button class="button button--footer" type="button">Join <i class="fa-solid fa-lg fa-angle-right"></i></button>
+                </div>
+                <!--newsletter right-->
+                <div class="container_item container_item--subscribe">
+                    <div>
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p class="footer_body">Art and events in your inbox.</p>
+                    </div>
+                    <div class="container_email">
+                        <form action="#!">
+                            <input type="email" class="email" name="email" placeholder="Email Address"><input type="submit" class="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--funders-->
+            <ul class="footer_list"> 
+                <li class="footer_list--funders"><strong>Thanks to Our Funders</strong></li>
+                <li class="footer_list--funders">Chicago Park District</li>
+                <li class="footer_list--funders">Illinois Arts Council</li>
+            </ul>
+            <!--copyright-->
+            <p class="footer_copyright">&copy;2022 National Museum of Mexican Art &ndash; All rights reserved</p>
+            <ul class="footer_list">
+                <li class="footer_list--copyright"><a href="#!">Terms of Use</a></li>
+                <li class="footer_list--copyright"><a href="#!">Privacy Policy</a></li>
+                <li class="footer_list--copyright"><a href="#!">Site by AREA 17</a></li>
+            </ul>
+        </div>
+
+
     </body>
 </html>
