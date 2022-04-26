@@ -262,7 +262,6 @@ a:hover {
 }
 .events_list p {
     font-family: var(--font-sans-serif);
-    margin: 1.5rem 0 1rem;
 }
 .events_list h3 {
     margin: 0;
@@ -448,4 +447,10 @@ h3.events--heading {
 }
 .events_also {
     margin-top: 6rem;
+}
+.event_link-1 {
+    margin: 1.5rem 0 .3rem;
+}
+.event_link {
+    margin: 1.5rem 0 .8rem;
 }
