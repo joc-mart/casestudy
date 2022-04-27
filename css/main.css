@@ -162,10 +162,9 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 3rem 2rem 2rem;
 }
 .component_code--banner a {
-    padding: .8rem 0 0;
     margin: 0 .8rem;
 }
 .banner_list {
@@ -180,6 +179,7 @@ a:hover {
     background-color: var(--warm-white);
     display: flex;
     justify-content: space-around;
+    padding-bottom: 1rem;
 }
 .nav_list {
     list-style-type: none;
@@ -196,20 +196,33 @@ a:hover {
     font-family: var(--font-sans-serif);
     background-color: var(--black);
     color: var(--warm-white);
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
 }
-.button--alert {
+.alert {
+    font-family: var(--font-sans-serif);
     background-color: var(--black);
+    padding: 2rem;
     color: var(--warm-white);
-    border: none;
-    font-size: 1.5rem;
 }
-.button--alert:hover {
+.closebtn {
+    color: var(--warm-white);
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    float: right;
+}
+.closebtn:hover {
+    color: black;
     background-color: var(--warm-white);
-    color: var(--black);
-    padding: .5rem 1rem;
+    padding: .5rem;
+}
+.alert--link {
+    color: var(--warm-white);
+    border-bottom: 1px solid var(--warm-white);
+}
+.alert--link:hover {
+    border-bottom: 1px solid var(--warm-white);
 }
 /* hero section */
 .component_code--hero {
@@ -245,7 +258,7 @@ a:hover {
 /* events section */
 .component_code--events {
     background-color: var(--warm-white);
-    padding: 2rem;
+    padding: 6rem 2rem;
 }
 .component_code--events img {
     display: block;
@@ -279,7 +292,7 @@ h3.events--heading {
 /* classes */
 .component_code--classes {
     background-color: var(--warm-white);
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 .classes_list {
     list-style-type: none;
@@ -448,9 +461,10 @@ h3.events--heading {
 .events_also {
     margin-top: 6rem;
 }
-.event_link-1 {
+.event_link--1 {
     margin: 1.5rem 0 .3rem;
 }
 .event_link {
     margin: 1.5rem 0 .8rem;
 }
+
