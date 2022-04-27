@@ -348,11 +348,12 @@ h3.events--heading {
     background-color: var(--pink);
 }
 .component_code--button {
-    padding: 1rem 0;
+    padding: 3rem 20%;
 }
 .button--mission {
     font-size: 1.1rem;
     background-color: var(--pink);
+    margin: 0 .5rem 4rem 0;
 }
 
 /* footer */
@@ -455,12 +456,6 @@ h3.events--heading {
 }
 .component_code--mission p {
     padding: 4rem 20% 0rem;
-}
-.component_code--button {
-    padding: 3rem 20%;
-}
-.button--mission {
-    margin: 0 .5rem 4rem 0;
 }
 .events_also {
     margin-top: 10rem;
