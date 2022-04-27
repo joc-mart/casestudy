@@ -292,7 +292,7 @@ h3.events--heading {
 /* classes */
 .component_code--classes {
     background-color: var(--warm-white);
-    padding: 4rem 4%;
+    padding: 4rem 4% 8rem;
 }
 .classes_list {
     list-style-type: none;
@@ -332,7 +332,7 @@ h3.events--heading {
 }
 /* highlights */
 .links--highlights {
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
 
 /* mission section */
