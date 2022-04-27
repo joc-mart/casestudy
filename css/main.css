@@ -150,6 +150,9 @@ a:hover {
 .links_diamond {
     font-weight: initial;
 }
+.links_diamond a:hover:nth-child(1) {
+    border-bottom: initial;
+}
 .diamond:hover {
     background-color: var(--black);
 }
@@ -464,6 +467,9 @@ h3.events--heading {
 }
 .event_link--1 {
     margin: 1.5rem 0 .3rem;
+}
+.event_link--2 {
+    margin: 0 0 .8rem;
 }
 .event_link {
     margin: 1.5rem 0 .8rem;
