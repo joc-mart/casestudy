@@ -258,7 +258,7 @@ a:hover {
 /* events section */
 .component_code--events {
     background-color: var(--warm-white);
-    padding: 6rem 2rem;
+    padding: 8rem 4%;
 }
 .component_code--events img {
     display: block;
@@ -292,7 +292,7 @@ h3.events--heading {
 /* classes */
 .component_code--classes {
     background-color: var(--warm-white);
-    padding: 4rem 2rem;
+    padding: 4rem 4%;
 }
 .classes_list {
     list-style-type: none;
@@ -356,7 +356,7 @@ h3.events--heading {
 .component_code--footer {
     background-color: var(--brown);
     text-align: center;
-    padding: 1rem;
+    padding: 6rem 1rem 1rem;
 }
 .component_code--footer h2 {
     font-size: 32px;
