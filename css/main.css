@@ -305,11 +305,12 @@ h3.events--heading {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
     background-color: var(--green);
     padding: 3rem 0 0 2rem;
 }
 .classes_subheading {
-    padding: 0rem 0rem 3rem;
+    padding: 0rem 1rem 3rem;
 }
 .classes_subheading h4 {
     margin-top: 0;
