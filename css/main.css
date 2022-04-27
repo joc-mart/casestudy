@@ -258,7 +258,7 @@ a:hover {
 /* events section */
 .component_code--events {
     background-color: var(--warm-white);
-    padding: 8rem 4%;
+    padding: 10rem 4% 6rem;
 }
 .component_code--events img {
     display: block;
@@ -460,7 +460,7 @@ h3.events--heading {
     margin: 0 .5rem 4rem 0;
 }
 .events_also {
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 .event_link--1 {
     margin: 1.5rem 0 .3rem;
