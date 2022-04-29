@@ -538,7 +538,14 @@ h3.events--heading {
         grid-template-columns: 1fr;
     }
     .classes_container {
-        align-items: flex-start;
+        display: block;
+        padding: 1rem 0 0 1rem;
+    }
+    .classes_container img {
+        width: 100%;
+    }
+    .classes_subheading {
+        padding: 0 0 2rem 0;
     }
     /* footer */
     .footer--mobile {
