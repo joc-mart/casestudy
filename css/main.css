@@ -487,6 +487,7 @@ h3.events--heading {
 
 /** mobile media query **/
 @media (max-width: 860px) {
+    /* header */
     .component_code--banner {
         padding: 12px 0;
     }
@@ -508,7 +509,19 @@ h3.events--heading {
     .mobile-header:hover {
         border-bottom: none;
     }
-}
+    /* hero */
+    .component_code--hero {
+        flex-direction: column-reverse;
+    }
+    .hero_img {
+        padding-left: 4%;
+    }
+    .hero_container {
+        padding: 0 0 4rem 4%;
+    }
+    .hero_container p {
+        margin-bottom: 3rem;
+    }
 @media (min-width: 860px) {
     .mobile-header {
         display: none;
