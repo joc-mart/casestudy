@@ -146,6 +146,7 @@ a:hover {
 }
 .links_diamond {
     font-weight: initial;
+    letter-spacing: .01rem;
 }
 .links_diamond a:hover:nth-child(1) {
     border-bottom: initial;
