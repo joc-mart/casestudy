@@ -399,7 +399,7 @@ h3.events--heading {
 }
 .container_item {
     padding: 3rem;
-    margin: 4rem;
+    margin: 4%;
 }
 .container_item--subscribe {
     display: flex;
@@ -425,7 +425,7 @@ h3.events--heading {
     color: var(--black);
     border: 1px solid var(--black);
     border-left: transparent;
-    padding: 1.09rem;
+    padding: 1.07rem;
     font-family: var(--font-sans-serif);
     font-weight: bold;
     display: inline;
