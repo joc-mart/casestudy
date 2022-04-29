@@ -372,6 +372,7 @@ h3.events--heading {
 }
 .component_code--footer h2 {
     font-size: 32px;
+    margin-bottom: 3rem;
 }
 .footer_body {
     font-size: 24px;
@@ -383,6 +384,7 @@ h3.events--heading {
     font-family: var(--font-sans-serif);
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 0px;
     justify-content: center;
     align-items: end;
     padding: 0;
@@ -446,6 +448,7 @@ h3.events--heading {
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 1rem;
+    letter-spacing: 0;
 }
 .footer_list--copyright {
     font-weight: normal;
@@ -529,6 +532,36 @@ h3.events--heading {
     }
     .events_list img {
         width: 100%;
+    }
+    /* classes */
+    .classes_list {
+        grid-template-columns: 1fr;
+    }
+    .classes_container {
+        align-items: flex-start;
+    }
+    /* footer */
+    .footer--mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer--mobile--funders {
+        margin-bottom: 2rem;
+    }
+    .footer--mobile--funders li {
+        padding: 0;
+    }
+    .footer_container {
+        flex-direction: column;
+    }
+    .container_item {
+        padding: 1rem;
+    }
+    .container_item--subscribe {
+        align-items: center;
+    }
+    .container_email {
+        padding-right: 5.5rem;
     }
 }   
 @media (min-width: 860px) {
