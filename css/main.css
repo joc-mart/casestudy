@@ -37,9 +37,6 @@ h3 {
     color: var(--black);
     margin: .6rem 0;
 }
-h1 {
-    font-size: 2.4rem;
-}
 h4 {
     font-family: var(--font-serif);
     font-weight: 100;
@@ -237,6 +234,9 @@ a:hover {
     font-size: 36px;
     margin: 0;
 }
+.component_code--hero h1 {
+    font-size: 36px;
+}
 .hero_container {
     display: flex;
     flex-direction: column;
@@ -246,10 +246,14 @@ a:hover {
 .button {
     font-family: var(--font-sans-serif);
     font-weight: bold;
+    font-size: 18px;
     background-color: white;
     color: var(--black);
     border: 1px solid var(--black);
-    padding: 1rem;
+    padding: 20px;
+}
+.fa-angle-right {
+    padding: 0 .6rem 0 1.2rem;
 }
 .button--hero {
     background-color: var(--pink);
