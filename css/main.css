@@ -485,6 +485,7 @@ h3.events--heading {
     padding-bottom: 3rem;
 }
 
+/** ** ** ** ** ** ** ** **/
 /** mobile media query **/
 @media (max-width: 860px) {
     /* header */
@@ -522,7 +523,14 @@ h3.events--heading {
     .hero_container p {
         margin-bottom: 3rem;
     }
-}
+    /* events */
+    .events_list {
+        grid-template-columns: 1fr;
+    }
+    .events_list img {
+        width: 100%;
+    }
+}   
 @media (min-width: 860px) {
     .mobile-header {
         display: none;
