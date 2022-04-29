@@ -490,6 +490,9 @@ h3.events--heading {
     .component_code--banner {
         padding: 12px 0;
     }
+    .component_code--banner a {
+        margin-top: 1rem;
+    }
     .banner_list {
         display: none;
     }
@@ -500,7 +503,6 @@ h3.events--heading {
         width: 104px;
     }
     .fa-lg {
-        vertical-align: -1.8rem;
         padding: 1rem;
     }
     .mobile-header:hover {
