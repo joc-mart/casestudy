@@ -130,6 +130,9 @@ img {
     font-size: 18px;
     line-height: 3rem;
 }
+.component_code--links .fa-angle-right {
+    padding-left: .5rem;
+}
 a {
     text-decoration: none;
 }
@@ -396,6 +399,7 @@ h3.events--heading {
 }
 .container_item {
     padding: 3rem;
+    margin: 4rem;
 }
 .container_item--subscribe {
     display: flex;
