@@ -255,6 +255,7 @@ a:hover {
     color: var(--black);
     border: 1px solid var(--black);
     padding: 20px;
+    margin-right: 1rem;
 }
 .fa-angle-right {
     padding: 0 .6rem 0 1.2rem;
@@ -527,6 +528,9 @@ h3.events--heading {
         margin-bottom: 3rem;
     }
     /* events */
+    .component_code--events {
+        padding: 3rem 4%;
+    }
     .events_list {
         grid-template-columns: 1fr;
     }
@@ -546,6 +550,18 @@ h3.events--heading {
     }
     .classes_subheading {
         padding: 0 0 2rem 0;
+    }
+    /* mission */
+    .component_code--mission p {
+        font-size: 28px;
+        padding: 4rem 4% 0rem;
+    }
+    .container--button {
+        padding: 3rem 4%;
+    }
+    .button--mission {
+        display: block;
+        margin-bottom: 2rem;
     }
     /* footer */
     .footer--mobile {
