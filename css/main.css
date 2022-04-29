@@ -355,7 +355,7 @@ h3.events--heading {
     line-height: 1.2;
     background-color: var(--pink);
 }
-.component_code--button {
+.container--button {
     padding: 3rem 20%;
 }
 .button--mission {
