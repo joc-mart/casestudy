@@ -522,6 +522,7 @@ h3.events--heading {
     .hero_container p {
         margin-bottom: 3rem;
     }
+}
 @media (min-width: 860px) {
     .mobile-header {
         display: none;
