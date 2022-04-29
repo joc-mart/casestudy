@@ -463,6 +463,9 @@ h3.events--heading {
     z-index: 10;
     width: 100%;
 }
+.logo a {
+    margin: 0;
+}
 .component_code--mission p {
     padding: 4rem 20% 0rem;
 }
