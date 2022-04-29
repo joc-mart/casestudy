@@ -570,6 +570,9 @@ h3.events--heading {
     .container_email {
         padding-right: 5.5rem;
     }
+    .button {
+        padding: 10px;
+    }
 }   
 @media (min-width: 860px) {
     .mobile-header {
