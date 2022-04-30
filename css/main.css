@@ -396,6 +396,9 @@ h3.events--heading {
 .footer_list li{
     padding: 1rem;
 }
+.footer_list a {
+    border-bottom: none;
+}
 .footer_container {
     display: flex;
     justify-content: center;
@@ -458,7 +461,6 @@ h3.events--heading {
 .component_code--footer h3 {
     margin: 0;
 }
-
 /** home-page template **/
 .home-page_nav {
     position: sticky;
